@@ -1,0 +1,590 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* p,a{
+    color: rgb(255, 113, 150);
+} */
+body{
+    overflow-x: hidden;
+}
+.top_main{
+    border-bottom: 1px solid black;  
+}
+.topflex{
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    padding: 1%;
+    align-items: baseline;
+}  
+.selection_menu{
+    display: inline-block;
+    text-align: start;
+    font-family: "Poppins",sans-serif;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.search_main{
+    border-bottom: 1px solid black;
+}
+.headline{
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 113, 150);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 10px;
+}
+.searchbar{
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    height: 2.5%;
+    padding: 1%;
+}
+/* .shopping_icon{
+    margin-right: 20%;
+} */
+.navbar{
+    font-family: "Poppins", sans-serif;
+    height: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+}  
+.unorder{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ban{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url("https://img.freepik.com/free-photo/glamorous-girl-with-shopping-bags-studio_23-2147825038.jpg?w=1060&t=st=1709276225~exp=1709276825~hmac=95586bb7b329038096b0a96bd82141fc1149391958433e2212961d1702fd3c96");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.bantext{
+    width: 50%;
+    padding: 4% 5%;
+    font-family: "Poppins", sans-serif;
+    line-height: 2em;
+    font-size:3em;
+}
+.butn{
+    background-color:lightcoral;
+    padding: 13px;
+    border-radius:3px ;
+    border: none;
+    color: azure;
+}
+.butn:hover{
+    box-shadow: 1px 1px 6px black;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+}
+.one{
+    margin: 15px;
+    margin-top: 30px;
+    height: 100px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-size: contain;
+}
+.one:hover{
+    box-shadow: 0px 0px 4px lightgreen;
+}
+.one_img img{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one_text{
+    margin: 10px;
+    padding: 5px;
+    height: 100%;
+    width: 65%;
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+.one_text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.asider{
+    width: 25%;
+    top: 0px;
+    position: sticky;
+    height: min-content;
+    margin-left: 15px;
+} 
+.long_container{
+    border-radius: 3px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    flex-wrap: wrap;
+}
+.left_asider{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 5px 0px;
+
+}
+.aside_img img{
+    height: 60px;
+    width: 60px;
+    background: none;
+   
+}
+.text_asider{
+    width: 70%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first_block{
+    width: 100%;
+    justify-content: start;
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin: 2% 1%;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+.first_block:hover{
+    box-shadow: 0px 0px 4px lightgreen;
+}
+.seller_img img{
+    height: 80px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+} 
+.sellertext{
+    padding: 5%;
+}
+.sellertext.top{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.amount{
+    text-decoration-line: line-through;
+    color: rgb(150, 150, 150);
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: "Poppins", sans-serif;
+}
+.main2center{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding: 1%;
+    align-items: center;
+}
+.amount1{
+    color: rgb(247, 36, 92);
+    font-weight: bold;
+    font-size: 0.8em; 
+    font-family: "Poppins", sans-serif;
+}
+.grey{
+    color: gray;
+    font-size: 12px;
+}
+.main3{
+    margin: 10px;
+    padding: 10px;
+   
+   
+}
+.box1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    /* height: 30vh; */
+}
+.box_img img{
+    width: 100%;
+    padding: 10px;
+    height: 90%;
+}
+.all_content{
+    font-size: 1em;
+    padding: 3px;
+    padding-right: 5px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    font-size: 1em;
+    line-height: 25px;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.progress{
+    margin: 10px 0px;
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    padding: 2px 2px;
+    border-radius: 5px;
+    
+}
+.pink{
+    height: 6px;
+    width: 65%;
+    background-color: rgb(247, 36, 92);
+    border-radius: 5px ;
+}
+.small_square1{
+    display: flex;
+    padding: 3px;
+    padding-right: 5px;
+    width: 100%;
+    gap: 10px;
+}
+.small_square{
+    text-align: center;
+    /* padding: 10px; */
+    width: 14%;
+    border-radius: 5px;
+    background-color:rgb(227, 224, 224);
+    margin-top: 2%;
+    margin-right: 3%;
+    font-size: 1em;
+}
+.new_product{
+    margin: 2%;
+    width: 98%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+}
+.new_product h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    border-bottom: 1px solid grey;
+    
+}
+.prod{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(4,18vw);
+    grid-template-rows: repeat(3,20vw);
+    gap: 20px;
+    
+}
+.block{
+    border: 1px solid gray;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.block:hover{
+    box-shadow: 0px 0px 4px lightgreen;
+}
+.block_img img{
+    width: 40%;
+    height: 60%;
+    margin: 1%;
+    border-radius: 5px;
+   margin-left: 25%;
+}
+.text_all{
+    margin: 4%;
+    
+}
+.name{
+    color: rgb(247, 36, 92);
+}
+.main4{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: stretch;
+    width: 100%;
+    height: 70vh;
+}
+.leftpart{
+    height: 100%;
+    width: 25%;
+    box-shadow: 0px 0px 1px grey;
+    border-radius: 5px;
+    margin: 2%;
+    /* display: block; */
+    padding: 2px;
+    text-align: center;
+    border: 1px solid grey;
+}
+.inventor img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+}
+.user{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+.work{
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+}
+.main5{
+    background-image: url("https://img.freepik.com/free-photo/carnival-still-life-arrangement-with-copy-space_23-2149130130.jpg?t=st=1709573446~exp=1709577046~hmac=5e66b7b899cc73bd9cda039bd770996c9831e921fce1415a9e6b6a677be710cb&w=826");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.midpic{
+    margin: 10%;
+    width: 50%;
+    background-color: pink;
+    opacity: 0.7;
+    place-items: center;
+    text-align: center;
+    padding: 5%;
+    border-radius: 5%;
+    font-family: "Poppins", sans-serif;
+    height: 35vh;
+    margin-top: 110px;
+    margin-left: 90px;
+}
+.discount{
+    color: aliceblue;
+    background-color: black;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    margin-left: 50px;
+}
+.midpic h1{
+    padding: 10px;
+    font-size: 2em;
+    display: block;
+}
+.rightpart{
+    /* display: flex; */
+    justify-content: center;
+    width: 50vw;
+    height: 100%;
+    /* flex-wrap: wrap; */
+    padding: 5%;
+}
+.blocker{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45%;
+    margin: 5px;
+
+}
+.smallwrapper{
+    margin: 05px 2%;
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+.fa{
+    display: inline-block;
+}
+.toptext{
+    color: rgb(61, 58, 58);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+.bottomtext{
+    font-size: 1rem;
+    margin-bottom: 5%;
+    color: gray;
+}
+.lastbox{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin: 5% 2%;
+}
+.lastimg img{
+    width: 21vw;
+    border-radius: 5px;
+    display: block;
+}
+.data{
+    margin: 2% 0%;
+    font-family: "Poppins", sans-serif;
+}
+.details{
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+.botmtext{
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+.brand{
+    padding: 3% 9%;
+    border-bottom: 1px solid grey;
+    background-color: black;
+    color: white;
+    display: block;
+}
+.shirts {
+    margin: 1.5% 0%;
+    list-style: none;
+    color: white;
+}
+.shirts li{
+    display: inline;
+    font-size: 0.8em;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    
+}
+.shirts a{
+    text-decoration: none;
+    color: rgb(156, 149, 149);
+    align-items: stretch;
+}
+.category{
+    background-color: black;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+.popular{
+    padding: 3% 2%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    list-style: none;
+}
+.popular a{
+    text-decoration: none;
+    color: rgb(156, 149, 149);
+    align-items: stretch;
+}
+.popular li{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    line-height: 30px;
+}
+.copyright{
+    font-size: 0.8em;
+    text-align: center;
+    background-color: black;
+    padding: 2% 0%;
+    padding-bottom: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+/* --------------ipad Air---------------- */
+@media screen and (max-width: 1100px){
+.topflex {
+    margin: 0% 3%;
+}
+.topon{
+    display: none;
+}
+.shopping_icon{
+    display: none;
+}
+.unorder{
+    font-size: 0.7em;
+   gap: 15px;
+}
+.main1{
+    max-width: 1400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}.asider{
+    display: none;
+}
+.long_container{
+    width: 42%;
+
+}
+.new_product{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+}
+.main2center{
+    flex-wrap: wrap;
+}
+.midpic{
+    height: fit-content;
+}
+.category{
+    flex-wrap: wrap;
+    font-size: 0.8em;
+}
+}
+/* <=================Mobile response===============> */
+/* @media screen and (max-width:680px){
+    .selection_menu{
+        display: none;
+    }
+    .topflex p{
+        font-size: 0.8em;
+        margin-left: 20%;
+    }
+} */
